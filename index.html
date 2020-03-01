@@ -8,7 +8,7 @@
 <body>
   <a-scene>
   <a-camera position='0 0 10' user-height='0'></a-camera>
-  <a-sphere src="moon_atmos_4096.jpg" radius="4" segments-height="53"> 
+  <a-sphere src="moon_atmos_4096.jpg" radius="6" segments-height="53"> 
      <a-animation attribute="rotation"
               dur="10000"
               fill= "forwards"
@@ -24,15 +24,23 @@
               easing="linear"
               repeat="indefinite"></a-animation>
   </a-sphere>
-    <a-sphere src="mars.jpg" radius="2" segments-height="53"> 
+    <a-sphere src="mars.jpg" radius="4" segments-height="53"> 
      <a-animation attribute="rotation"
               dur="10000"
               fill= "forwards"
-              to="0 360 0"
+              to="0 -360 0"
               easing="linear"
               repeat="indefinite"></a-animation>
   </a-sphere>
-    <a-sphere src="silver.jpg" radius="1" segments-height="53"> 
+    <a-sphere src="silver.jpg" radius="2" segments-height="53"> 
+     <a-animation attribute="rotation"
+              dur="10000"
+              fill= "forwards"
+              to="0 -360 0"
+              easing="linear"
+              repeat="indefinite"></a-animation>
+  </a-sphere>
+     <a-sphere src="rainbow.jpg" radius="1" segments-height="53"> 
      <a-animation attribute="rotation"
               dur="10000"
               fill= "forwards"
